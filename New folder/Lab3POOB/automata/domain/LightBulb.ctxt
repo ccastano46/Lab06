@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=LightBulb
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Bulb\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=ac\ row\ column
+comment1.target=LightBulb(CellularAutomata,\ int,\ int)
+comment1.text=\r\n\ Constructor\ de\ bombillo\r\n
+comment2.params=
+comment2.target=int\ shape()
+comment2.text=Returns\ the\ shape\r\n\ \ \ \ @return\ Item.ROUND\r\n
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment3.text=Returns\ the\ color\r\n\ \ \ \ @return\ color\r\n
+comment4.params=
+comment4.target=void\ setColor()
+comment4.text=\r\n\ Metodo\ que\ ajusta\ el\ color\ de\ acuerdo\ si\ esta\ prendido\ o\ apagado.\r\n\ Si\ esta\ prendido,\ amarillo.\r\n\ Apagado,\ cyan\r\n
+comment5.params=
+comment5.target=boolean\ isAlive()
+comment5.text=\r\n\ Funci\u00F3n\ que\ indica\ si\ el\ bombillo\ esta\ prendido\ o\ apagado\r\n
+comment6.params=
+comment6.target=void\ change()
+comment6.text=\r\n\ Metodo\ que\ cambia\ el\ estado\ del\ bombillo\r\n
+comment7.params=
+comment7.target=void\ decide()
+comment7.text=\r\nSe\ decide\ el\ estado\ del\ bombillo\r\nSi\ todos\ sus\ vecinos\ estan\ vivos\ o\ si\ no\ tiene\ ningun\ vecino,\ esta\ vivo.\r\n
+numComments=8

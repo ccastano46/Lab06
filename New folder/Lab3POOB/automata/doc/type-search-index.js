@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"domain","l":"Agent"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"presentation","l":"AutomataGUI"},{"p":"domain","l":"Cell"},{"p":"domain","l":"CellularAutomata"},{"p":"domain","l":"Heater"},{"p":"domain","l":"Item"},{"p":"presentation","l":"PhotoAutomata"},{"p":"domain","l":"Sociable"}];updateSearchResults();
