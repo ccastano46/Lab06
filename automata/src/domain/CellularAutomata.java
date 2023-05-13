@@ -1,10 +1,17 @@
 package domain;
 import java.util.*;
+import java.io.OutputStream;
+import java.io.Serializable;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
 
 /*No olviden adicionar la documentacion*/
-public class CellularAutomata{
+public class CellularAutomata implements Serializable{
     static private int LENGTH=30;
     private Item[][] automata;
     public Item[][] automataCopy;
@@ -155,16 +162,22 @@ public class CellularAutomata{
     * @param file , archivo que se desa abrir
     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
      */
-    public void open(File file) throws AutomataException{
-        throw new AutomataException(AutomataException.IN_PROCESS+"open");
+    public CellularAutomata open(File file) throws Exception{
+        ObjectInputStream in = new ObjectInputStream(new FileInputStream(file));
+        CellularAutomata newAutomata = (CellularAutomata) in.readObject();
+        in.close();
+        return newAutomata;
     }
     /**
     * Metodo para salvar un archivo con extension de programa (ObjectOutputStream).
     * @param file , archivo que se desa abrir
+     * @throws IOException 
     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
      */
-    public void save(File file) throws AutomataException{
-        throw new AutomataException(AutomataException.IN_PROCESS+"save");
+    public void save(File file) throws Exception{
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(file));
+        out.writeObject(this);
+        out.close();
     }
     /**
     * Metodo para importar un archivo (FileInputStream).
@@ -172,7 +185,7 @@ public class CellularAutomata{
     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
      */
     public void import_(File file) throws AutomataException{
-        throw new AutomataException(AutomataException.IN_PROCESS+"import");
+        throw new AutomataException(AutomataException.IN_PROCESS+" import");
     }
     /**
     * Metodo para exportar un archivo con extension de texto (texto plano FileOutputStream).
@@ -180,6 +193,23 @@ public class CellularAutomata{
     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
      */
     public void export(File file) throws AutomataException{
-        throw new AutomataException(AutomataException.IN_PROCESS+"export");
+        throw new AutomataException(AutomataException.IN_PROCESS+" export");
     }
+    
+    /**
+     * Metodo para abrir un archivo.
+     * @param file , archivo que se desa abrir
+     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
+      */
+     public void open00(File file) throws AutomataException{
+         throw new AutomataException(AutomataException.IN_PROCESS+" open");
+     }
+     /**
+     * Metodo para salvar un archivo con extension de programa .
+     * @param file , archivo que se desa abrir
+     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
+      */
+     public void save00(File file) throws AutomataException{
+         throw new AutomataException(AutomataException.IN_PROCESS+" save");
+     }
 }

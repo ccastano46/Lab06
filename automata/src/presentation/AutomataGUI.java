@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 
-public class AutomataGUI extends JFrame{  
+public class AutomataGUI extends JFrame {  
     public static final int SIDE=21;
     public static final int SIZE=31;
 
@@ -92,37 +92,60 @@ public class AutomataGUI extends JFrame{
         });
         abrir.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                selectorArchivos.showOpenDialog(AutomataGUI.this);
+                try {
+                	int option = selectorArchivos.showOpenDialog(AutomataGUI.this);
+					if(option == 0) {
+						automata =automata.open(selectorArchivos.getSelectedFile());
+						photo.repaint();
+					}
+				} catch (Exception e1) {
+					JOptionPane.showMessageDialog(AutomataGUI.this, "Se ha producido un error ");
+				}
             }
         });
         guardarComo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                selectorArchivos.showSaveDialog(AutomataGUI.this);
+            	try {
+                	int option =selectorArchivos.showSaveDialog(AutomataGUI.this);
+					if(option == 0)automata.save(selectorArchivos.getSelectedFile());
+				} catch (Exception e1) {
+					JOptionPane.showMessageDialog(AutomataGUI.this, "Se ha producido un error ");
+
+				} 
             }
         });
         importar.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
+            	try {
+                	selectorArchivos.showOpenDialog(AutomataGUI.this);
+					automata.import_(null);
+				} catch (AutomataException e1) {
+					JOptionPane.showMessageDialog(AutomataGUI.this, e1.getMessage());
 
+				}
             }
         });
         exportarComo.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                
+            	try {
+                	selectorArchivos.showSaveDialog(AutomataGUI.this);
+					automata.export(null);
+				} catch (AutomataException e1) {
+					JOptionPane.showMessageDialog(AutomataGUI.this, e1.getMessage());
+
+				}
             }
         });
         nuevo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e){
                 automata = new CellularAutomata();
-                
                 automata.someItemsConway(21,7);
                 automata.someItemsConway(21,8);
                 automata.someItemsConway(21,9);
-                
                 automata.someItemsConway(26,1);
                 automata.someItemsConway(26,2);
                 automata.someItemsConway(27,1);
                 automata.someItemsConway(27,2);
-                
                 photo.repaint();
             }
         });

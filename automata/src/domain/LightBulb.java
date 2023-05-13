@@ -1,5 +1,6 @@
 package domain;
 import java.awt.Color;
+import java.io.Serializable;
 
 /**
  * Write a description of class Bulb here.
@@ -7,7 +8,7 @@ import java.awt.Color;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public final class LightBulb implements Item
+public final class LightBulb implements Item,Serializable
 {
     private  final int  on = 0, off = 1;
     private int state;
