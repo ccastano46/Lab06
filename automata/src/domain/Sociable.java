@@ -1,5 +1,6 @@
 package domain;
 
+import java.io.Serializable;
 
 /**
  * Write a description of class Sociable here.
@@ -7,8 +8,9 @@ package domain;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Sociable extends Cell
+public class Sociable extends Cell implements Serializable
 {
+    private static final long serialVersionUID=6529685098267757690L;
     public Sociable(CellularAutomata ac,int row, int column){
         super(ac,row,column);
     }
@@ -18,7 +20,7 @@ public class Sociable extends Cell
         if(isAlive()){
             //contarTodosVecinos();
             //System.out.println("Decidiendo");
-            if(contarVecinos() <= 2){
+            if(contarVecinos() < 2){
                 //System.out.println("muerte vecinos");
                 nextState=Agent.DEAD;
             }

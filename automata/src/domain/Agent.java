@@ -36,6 +36,14 @@ public abstract class Agent implements Serializable{
     public void resetAge(){
         age=0;
     }
+    
+    public char getState(){
+        return state;
+    }
+
+    public void setState(char state){
+        this.state=state;
+    }
 
     /**Returns if alive
     @return true, if ALIVE; false, otherwise

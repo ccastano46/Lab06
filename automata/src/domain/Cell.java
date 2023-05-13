@@ -8,6 +8,7 @@ import java.io.Serializable;
 <br>
  */
 public class Cell extends Agent implements Item, Serializable{
+    private static final long serialVersionUID=6529685098267757690L;
     protected char nextState;
     protected Color color;
     private CellularAutomata automata;
@@ -31,6 +32,10 @@ public class Cell extends Agent implements Item, Serializable{
     
     public final void deleteItem(){
         automata.setItem(row,column,null);
+    }
+    
+    public void setNextStateDead(){
+        nextState=Agent.DEAD;
     }
     
     /**Returns the shape

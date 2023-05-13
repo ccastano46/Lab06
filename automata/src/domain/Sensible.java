@@ -9,6 +9,7 @@ import java.awt.Color;
  */
 public class Sensible extends Cell
 {
+    private static final long serialVersionUID=6529685098267757690L;
     
     public Sensible(CellularAutomata ac,int row, int column){
         super(ac,row,column);

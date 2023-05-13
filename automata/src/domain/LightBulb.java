@@ -10,6 +10,7 @@ import java.io.Serializable;
  */
 public final class LightBulb implements Item,Serializable
 {
+    private static final long serialVersionUID=6529685098267757690L;
     private  final int  on = 0, off = 1;
     private int state;
     private int nextState;

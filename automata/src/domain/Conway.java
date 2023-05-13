@@ -1,6 +1,7 @@
 package domain;
 
 import java.awt.Color;
+import java.io.Serializable;
 
 /**
  * Write a description of class Conway here.
@@ -8,9 +9,9 @@ import java.awt.Color;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Conway extends Cell
+public class Conway extends Cell implements Serializable
 {
-    private boolean nacida;
+    private static final long serialVersionUID=6529685098267757690L;
     /**
      * Contructor de la cèlula Conway.
      */
@@ -25,7 +26,6 @@ public class Conway extends Cell
      */
     public void decide(){
         CellularAutomata au=this.getAutomata();
-        Item[] vecinos = au.getVecinos(getRow(),getColumn());
         int cuenta = contarTodosVecinos();
         //System.out.println(cuenta);
         //Una célula muerta con exactamente 3 células vecinas vivas "revive" (al tiempo siguiente estará viva).

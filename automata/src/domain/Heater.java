@@ -1,5 +1,6 @@
 package domain;
 import java.awt.Color;
+import java.io.Serializable;
 
 /**
  * Write a description of class Calentador here.
@@ -7,8 +8,9 @@ import java.awt.Color;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Heater extends Agent implements Item
+public class Heater extends Agent implements Item,Serializable
 {
+    private static final long serialVersionUID=6529685098267757690L;
     protected char nextState;
     protected Color color;
     private CellularAutomata automata;
