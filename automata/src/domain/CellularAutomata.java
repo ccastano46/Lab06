@@ -205,27 +205,6 @@ public class CellularAutomata implements Serializable {
      * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
      */
     public void import_(File file) throws IOException,AutomataException{
-        PrintWriter pw = new PrintWriter(new FileOutputStream(file));
-        for(int i = 0; i<automata.length;i++){
-            for(int j= 0;j<automata.length;j++){
-                if(automata[i][j]!=null && automata[i][j] instanceof Agent){
-                    Agent agente = (Agent) automata[i][j];
-                    pw.println(automata[i][j].getClass().getSimpleName() + " " + i + " " + j + " " + (agente.getState() == 'a' ? "alive" : "dead"));
-                }
-            }
-        }
-        pw.flush();
-        pw.close();
-    }
-
-    /**
-     * Metodo para exportar un archivo con extension de texto (texto plano
-     * FileOutputStream).
-     * 
-     * @param file , archivo que se desa abrir
-     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
-     */
-    public void export(File file) throws IOException,AutomataException {
         BufferedReader bIn = new BufferedReader(new FileReader(file));
         resetAutomata();
         String line = bIn.readLine();
@@ -279,6 +258,27 @@ public class CellularAutomata implements Serializable {
             line = bIn.readLine();
         }
         bIn.close();
+    }
+
+    /**
+     * Metodo para exportar un archivo con extension de texto (texto plano
+     * FileOutputStream).
+     * 
+     * @param file , archivo que se desa abrir
+     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
+     */
+    public void export(File file) throws IOException,AutomataException {
+        PrintWriter pw = new PrintWriter(new FileOutputStream(file));
+        for(int i = 0; i<automata.length;i++){
+            for(int j= 0;j<automata.length;j++){
+                if(automata[i][j]!=null && automata[i][j] instanceof Agent){
+                    Agent agente = (Agent) automata[i][j];
+                    pw.println(automata[i][j].getClass().getSimpleName() + " " + i + " " + j + " " + (agente.getState() == 'a' ? "alive" : "dead"));
+                }
+            }
+        }
+        pw.flush();
+        pw.close();
     }
 
     /**

@@ -119,7 +119,7 @@ public class AutomataGUI extends JFrame {
         importar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
-                    int option = selectorArchivos.showSaveDialog(AutomataGUI.this);
+                    int option = selectorArchivos.showOpenDialog(AutomataGUI.this);
                     if (option == 0) {
                         automata.import_(selectorArchivos.getSelectedFile());
                         photo.repaint();
@@ -132,7 +132,7 @@ public class AutomataGUI extends JFrame {
         exportarComo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
-                    int option = selectorArchivos.showOpenDialog(AutomataGUI.this);
+                    int option = selectorArchivos.showSaveDialog(AutomataGUI.this);
                     if (option == 0) {
                         automata.export(selectorArchivos.getSelectedFile());
                         photo.repaint();
