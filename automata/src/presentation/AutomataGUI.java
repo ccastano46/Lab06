@@ -121,10 +121,16 @@ public class AutomataGUI extends JFrame {
                 try {
                     int option = selectorArchivos.showOpenDialog(AutomataGUI.this);
                     if (option == 0) {
-                        automata.import_(selectorArchivos.getSelectedFile());
+                        automata.import_01(selectorArchivos.getSelectedFile());
                         photo.repaint();
                     }
                 } catch (Exception e1) {
+                    try {
+                        automata.import_02(selectorArchivos.getSelectedFile());
+                    } catch (Exception e2) {
+                        JOptionPane.showMessageDialog(AutomataGUI.this, e2.getMessage());
+                    }
+                    
                     JOptionPane.showMessageDialog(AutomataGUI.this, e1.getMessage());
                 }
             }
@@ -134,7 +140,7 @@ public class AutomataGUI extends JFrame {
                 try {
                     int option = selectorArchivos.showSaveDialog(AutomataGUI.this);
                     if (option == 0) {
-                        automata.export(selectorArchivos.getSelectedFile());
+                        automata.export01(selectorArchivos.getSelectedFile());
                         photo.repaint();
                     }
                 } catch (Exception e1) {
@@ -146,13 +152,6 @@ public class AutomataGUI extends JFrame {
         nuevo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 automata = new CellularAutomata();
-                automata.someItemsConway(21, 7);
-                automata.someItemsConway(21, 8);
-                automata.someItemsConway(21, 9);
-                automata.someItemsConway(26, 1);
-                automata.someItemsConway(26, 2);
-                automata.someItemsConway(27, 1);
-                automata.someItemsConway(27, 2);
                 photo.repaint();
             }
         });
@@ -169,17 +168,6 @@ public class AutomataGUI extends JFrame {
 
     public static void main(String[] args) {
         AutomataGUI ca = new AutomataGUI();
-        ca.automata.someItemsConway(10, 4);
-        ca.automata.someItemsConway(21, 7);
-        ca.automata.someItemsConway(21, 8);
-        ca.automata.someItemsConway(21, 9);
-        ca.automata.someItemsConway(20, 8);
-        ca.automata.someItemsConway(22, 8);
-
-        ca.automata.someItemsConway(26, 1);
-        ca.automata.someItemsConway(26, 2);
-        ca.automata.someItemsConway(27, 1);
-        ca.automata.someItemsConway(27, 2);
         ca.setVisible(true);
     }
 }

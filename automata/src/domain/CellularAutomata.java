@@ -204,7 +204,7 @@ public class CellularAutomata implements Serializable {
      * @param file , archivo que se desa abrir
      * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
      */
-    public void import_(File file) throws IOException,AutomataException{
+    public void import_01(File file) throws IOException,AutomataException{
         BufferedReader bIn = new BufferedReader(new FileReader(file));
         resetAutomata();
         String line = bIn.readLine();
@@ -226,7 +226,8 @@ public class CellularAutomata implements Serializable {
                 } catch (Exception e) {
                     throw new AutomataException("'"+cell[2]+"' "+AutomataException.ROW_NOT_NUMBER);
                 }
-                
+                if(row<0 || column<0 || row>=LENGTH || column>=LENGTH)  throw new AutomataException(AutomataException.OUT_OF_RANGE);
+
                 if (cell[0].toLowerCase().equals("cell")) {
                     someItems(row, column);
                 } else if (cell[0].toLowerCase().equals("sociable")) {
@@ -261,19 +262,105 @@ public class CellularAutomata implements Serializable {
     }
 
     /**
+     * Metodo para importar un archivo (FileInputStream).
+     * 
+     * @param file , archivo que se desa abrir
+     * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
+     */
+    public void import_02(File file) throws IOException{
+        BufferedReader bIn = new BufferedReader(new FileReader(file));
+        PrintWriter pw = new PrintWriter(new FileOutputStream(new File(file.getParent()+"/automataErr.txt")));
+        pw.println("Automata Errores "+file.getName());
+        String line = bIn.readLine();
+        int codeLine = 1;
+        while (line != null) {
+            line = line.trim();
+            //System.out.println(line);
+            String[] cell = line.split(" ");
+            if (cell.length == 4) {
+                int row=0;
+                int column=0;
+
+                try {
+                    row = Integer.parseInt(cell[1]);
+                } catch (Exception e) {
+                    pw.println("Line "+codeLine+": "+"'"+cell[1]+"' "+AutomataException.ROW_NOT_NUMBER);
+                }
+                try {
+                    column = Integer.parseInt(cell[2]);
+                } catch (Exception e) {
+                    pw.println("Line "+codeLine+": "+"'"+cell[2]+"' "+AutomataException.ROW_NOT_NUMBER);
+                }
+
+                if(row<0 || column<0 || row>=LENGTH || column>=LENGTH) pw.println("Line "+codeLine+": "+AutomataException.OUT_OF_RANGE+" "+line);
+
+                if (cell[0].toLowerCase().equals("cell")) {
+                    //someItems(row, column);
+                } else if (cell[0].toLowerCase().equals("sociable")) {
+                    //someItemsSocial(row, column);
+                } else if (cell[0].toLowerCase().equals("sensible")) {
+                    //someSensibleItems(row, column);
+                } else if (cell[0].toLowerCase().equals("heater")) {
+                    //someItemsHeater(row, column);
+                } else if (cell[0].toLowerCase().equals("lightbulb")) {
+                    //someItemsLightBulb(row, column);
+                } else if (cell[0].toLowerCase().equals("conway")) {
+                    //someItemsConway(row, column);
+                } else {
+                    pw.println("Line "+codeLine+": "+AutomataException.NO_CELL + cell[0]);
+                }
+                if (cell[3].toLowerCase().equals("alive")) {
+                    //Cell celula = (Cell) getItem(row, column);
+                    //celula.setState('a');
+                } else if (cell[3].toLowerCase().equals("dead")) {
+                    //Cell celula = (Cell) getItem(row, column);
+                    //celula.setState('d');
+                    //celula.setNextStateDead();
+                }else{
+                    pw.println("Line "+codeLine+": "+"'"+cell[2]+"' "+AutomataException.NO_VALID);
+                }
+            }else if(!line.equals("")){
+                pw.println("Line "+codeLine+": "+"'"+line+"' "+AutomataException.NO_VALID);
+            }
+            line = bIn.readLine();
+            codeLine++;
+        }
+        pw.flush();
+        pw.close();
+        bIn.close();
+    }
+
+    /**
      * Metodo para exportar un archivo con extension de texto (texto plano
      * FileOutputStream).
      * 
      * @param file , archivo que se desa abrir
      * @throws AutomataExeption IN_PROCESS Si el metodo se esta construyendo
      */
-    public void export(File file) throws IOException,AutomataException {
+    public void export01(File file) throws IOException,AutomataException {
         PrintWriter pw = new PrintWriter(new FileOutputStream(file));
         for(int i = 0; i<automata.length;i++){
             for(int j= 0;j<automata.length;j++){
                 if(automata[i][j]!=null && automata[i][j] instanceof Agent){
                     Agent agente = (Agent) automata[i][j];
                     pw.println(automata[i][j].getClass().getSimpleName() + " " + i + " " + j + " " + (agente.getState() == 'a' ? "alive" : "dead"));
+                    pw.println("");
+                }
+            }
+        }
+        pw.flush();
+        pw.close();
+    }
+
+
+    public void export02(File file) throws IOException,AutomataException {
+        PrintWriter pw = new PrintWriter(new FileOutputStream(file));
+        for(int i = 0; i<automata.length;i++){
+            for(int j= 0;j<automata.length;j++){
+                if(automata[i][j]!=null && automata[i][j] instanceof Agent){
+                    Agent agente = (Agent) automata[i][j];
+                    pw.println(automata[i][j].getClass().getSimpleName() + " " + i + " " + j + " " + (agente.getState() == 'a' ? "alive" : "dead"));
+                    pw.println("");
                 }
             }
         }

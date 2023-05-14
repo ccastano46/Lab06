@@ -1,0 +1,1719 @@
+Conway 0 0 dead
+
+Conway 0 1 dead
+
+Conway 0 2 alive
+
+Conway 0 3 alive
+
+Conway 0 4 dead
+
+Conway 0 5 dead
+
+Conway 0 6 dead
+
+Conway 0 7 dead
+
+Conway 0 8 dead
+
+Conway 0 9 dead
+
+Conway 0 10 dead
+
+Conway 0 11 dead
+
+Conway 0 12 dead
+
+Conway 0 13 dead
+
+Conway 0 14 dead
+
+Conway 0 15 dead
+
+Conway 0 16 dead
+
+Conway 0 17 dead
+
+Conway 0 18 dead
+
+Conway 0 19 dead
+
+Conway 0 20 dead
+
+Conway 0 21 dead
+
+Conway 0 22 dead
+
+Conway 0 23 dead
+
+Conway 0 24 dead
+
+Conway 0 25 dead
+
+Conway 0 26 dead
+
+Conway 0 27 dead
+
+Conway 0 28 dead
+
+Conway 0 29 dead
+
+Conway 1 0 dead
+
+Conway 1 1 alive
+
+Conway 1 2 dead
+
+Conway 1 3 alive
+
+Conway 1 4 dead
+
+Conway 1 5 dead
+
+Conway 1 6 dead
+
+Conway 1 7 dead
+
+Conway 1 8 dead
+
+Conway 1 9 dead
+
+Conway 1 10 dead
+
+Conway 1 11 dead
+
+Conway 1 12 dead
+
+Conway 1 13 dead
+
+Conway 1 14 dead
+
+Conway 1 15 dead
+
+Conway 1 16 dead
+
+Conway 1 17 dead
+
+Conway 1 18 dead
+
+Conway 1 19 dead
+
+Conway 1 20 dead
+
+Conway 1 21 dead
+
+Conway 1 22 dead
+
+Conway 1 23 dead
+
+Conway 1 24 dead
+
+Conway 1 25 dead
+
+Conway 1 26 dead
+
+Conway 1 27 dead
+
+Conway 1 28 dead
+
+Conway 1 29 dead
+
+Conway 2 0 dead
+
+Conway 2 1 dead
+
+Conway 2 2 alive
+
+Conway 2 3 dead
+
+Conway 2 4 dead
+
+Conway 2 5 dead
+
+Conway 2 6 dead
+
+Conway 2 7 dead
+
+Conway 2 8 dead
+
+Conway 2 9 dead
+
+Conway 2 10 dead
+
+Conway 2 11 dead
+
+Conway 2 12 dead
+
+Conway 2 13 dead
+
+Conway 2 14 dead
+
+Conway 2 15 dead
+
+Conway 2 16 dead
+
+Conway 2 17 dead
+
+Conway 2 18 dead
+
+Conway 2 19 dead
+
+Conway 2 20 dead
+
+Conway 2 21 dead
+
+Conway 2 22 dead
+
+Conway 2 23 dead
+
+Conway 2 24 dead
+
+Conway 2 25 dead
+
+Conway 2 26 dead
+
+Conway 2 27 dead
+
+Conway 2 28 dead
+
+Conway 2 29 dead
+
+Conway 3 0 dead
+
+Conway 3 1 dead
+
+Conway 3 2 dead
+
+Conway 3 3 dead
+
+Conway 3 4 dead
+
+Conway 3 5 dead
+
+Conway 3 6 dead
+
+Conway 3 7 dead
+
+Conway 3 8 dead
+
+Conway 3 9 dead
+
+Conway 3 10 dead
+
+Conway 3 11 dead
+
+Conway 3 12 dead
+
+Conway 3 13 dead
+
+Conway 3 14 dead
+
+Conway 3 15 dead
+
+Conway 3 16 dead
+
+Conway 3 17 dead
+
+Conway 3 18 dead
+
+Conway 3 19 dead
+
+Conway 3 20 dead
+
+Conway 3 21 dead
+
+Conway 3 22 dead
+
+Conway 3 23 dead
+
+Conway 3 24 dead
+
+Conway 3 25 dead
+
+Conway 3 27 dead
+
+Conway 3 28 dead
+
+Conway 3 29 dead
+
+Conway 4 0 dead
+
+Conway 4 1 dead
+
+Conway 4 2 dead
+
+Conway 4 3 dead
+
+Conway 4 4 dead
+
+Conway 4 5 dead
+
+Conway 4 6 dead
+
+Conway 4 7 dead
+
+Conway 4 8 dead
+
+Conway 4 9 dead
+
+Conway 4 10 dead
+
+Conway 4 11 dead
+
+Conway 4 12 dead
+
+Conway 4 13 dead
+
+Conway 4 14 dead
+
+Conway 4 15 dead
+
+Conway 4 16 dead
+
+Conway 4 17 dead
+
+Conway 4 18 dead
+
+Conway 4 19 dead
+
+Conway 4 20 dead
+
+Conway 4 21 alive
+
+Conway 4 22 dead
+
+Conway 4 23 dead
+
+Conway 4 24 dead
+
+Conway 4 25 dead
+
+Conway 4 28 dead
+
+Conway 4 29 dead
+
+Conway 5 0 dead
+
+Conway 5 1 dead
+
+Conway 5 2 dead
+
+Conway 5 3 dead
+
+Conway 5 4 dead
+
+Conway 5 5 dead
+
+Conway 5 6 dead
+
+Conway 5 7 dead
+
+Conway 5 8 dead
+
+Conway 5 9 dead
+
+Conway 5 10 dead
+
+Conway 5 11 dead
+
+Conway 5 12 dead
+
+Conway 5 13 dead
+
+Conway 5 14 dead
+
+Conway 5 15 dead
+
+Conway 5 16 dead
+
+Conway 5 17 dead
+
+Conway 5 18 dead
+
+Conway 5 19 alive
+
+Conway 5 20 dead
+
+Conway 5 21 dead
+
+Conway 5 22 dead
+
+Conway 5 23 alive
+
+Conway 5 24 dead
+
+Conway 5 25 dead
+
+Conway 5 29 dead
+
+Conway 6 0 dead
+
+Conway 6 1 dead
+
+Conway 6 2 dead
+
+Conway 6 3 dead
+
+Conway 6 4 dead
+
+Conway 6 5 dead
+
+Conway 6 6 dead
+
+Conway 6 7 dead
+
+Conway 6 8 dead
+
+Conway 6 9 dead
+
+Conway 6 10 dead
+
+Conway 6 11 dead
+
+Conway 6 12 dead
+
+Conway 6 13 dead
+
+Conway 6 14 dead
+
+Conway 6 15 dead
+
+Conway 6 16 dead
+
+Conway 6 17 dead
+
+Conway 6 18 dead
+
+Conway 6 19 alive
+
+Conway 6 20 dead
+
+Conway 6 21 dead
+
+Conway 6 22 dead
+
+Conway 6 23 alive
+
+Conway 6 24 dead
+
+Conway 6 25 dead
+
+Conway 6 26 dead
+
+Conway 6 29 dead
+
+Conway 7 0 dead
+
+Conway 7 1 dead
+
+Conway 7 2 dead
+
+Conway 7 3 dead
+
+Conway 7 4 dead
+
+Conway 7 5 dead
+
+Conway 7 6 dead
+
+Conway 7 7 dead
+
+Conway 7 8 dead
+
+Conway 7 9 dead
+
+Conway 7 10 dead
+
+Conway 7 11 dead
+
+Conway 7 12 dead
+
+Conway 7 13 dead
+
+Conway 7 14 dead
+
+Conway 7 15 dead
+
+Conway 7 16 dead
+
+Conway 7 17 dead
+
+Conway 7 18 dead
+
+Conway 7 19 dead
+
+Conway 7 20 dead
+
+Conway 7 21 alive
+
+Conway 7 22 alive
+
+Conway 7 23 dead
+
+Conway 7 24 dead
+
+Conway 7 25 dead
+
+Conway 7 26 dead
+
+Conway 7 27 dead
+
+Conway 7 28 dead
+
+Conway 7 29 dead
+
+Conway 8 0 dead
+
+Conway 8 1 dead
+
+Conway 8 2 dead
+
+Conway 8 3 dead
+
+Conway 8 4 dead
+
+Conway 8 5 dead
+
+Conway 8 6 dead
+
+Conway 8 7 dead
+
+Conway 8 8 dead
+
+Conway 8 9 dead
+
+Conway 8 10 dead
+
+Conway 8 11 dead
+
+Conway 8 12 dead
+
+Conway 8 13 dead
+
+Conway 8 14 dead
+
+Conway 8 15 dead
+
+Conway 8 16 dead
+
+Conway 8 17 dead
+
+Conway 8 18 dead
+
+Conway 8 19 dead
+
+Conway 8 20 dead
+
+Conway 8 21 dead
+
+Conway 8 22 dead
+
+Conway 8 23 dead
+
+Conway 8 24 dead
+
+Conway 8 25 dead
+
+Conway 8 26 dead
+
+Conway 8 27 dead
+
+Conway 8 28 dead
+
+Conway 8 29 dead
+
+Conway 9 0 dead
+
+Conway 9 1 dead
+
+Conway 9 2 dead
+
+Conway 9 3 dead
+
+Conway 9 4 dead
+
+Conway 9 5 dead
+
+Conway 9 6 dead
+
+Conway 9 7 dead
+
+Conway 9 8 dead
+
+Conway 9 9 dead
+
+Conway 9 10 dead
+
+Conway 9 11 dead
+
+Conway 9 12 dead
+
+Conway 9 13 dead
+
+Conway 9 14 dead
+
+Conway 9 15 dead
+
+Conway 9 16 dead
+
+Conway 9 17 dead
+
+Conway 9 18 dead
+
+Conway 9 19 dead
+
+Conway 9 20 dead
+
+Conway 9 21 dead
+
+Conway 9 22 alive
+
+Conway 9 23 alive
+
+Conway 9 24 alive
+
+Conway 9 25 alive
+
+Conway 9 26 dead
+
+Conway 9 27 dead
+
+Conway 9 28 dead
+
+Conway 9 29 dead
+
+Conway 10 0 dead
+
+Conway 10 1 dead
+
+Conway 10 2 dead
+
+Conway 10 3 dead
+
+Conway 10 4 dead
+
+Conway 10 5 dead
+
+Conway 10 6 dead
+
+Conway 10 7 dead
+
+Conway 10 10 dead
+
+Conway 10 11 dead
+
+Conway 10 12 dead
+
+Conway 10 13 dead
+
+Conway 10 14 dead
+
+Conway 10 15 dead
+
+Conway 10 16 dead
+
+Conway 10 17 dead
+
+Conway 10 18 dead
+
+Conway 10 19 dead
+
+Conway 10 20 dead
+
+Conway 10 21 alive
+
+Conway 10 22 alive
+
+Conway 10 23 alive
+
+Conway 10 24 alive
+
+Conway 10 25 dead
+
+Conway 10 26 dead
+
+Conway 10 27 dead
+
+Conway 10 28 dead
+
+Conway 10 29 dead
+
+Conway 11 0 dead
+
+Conway 11 1 dead
+
+Conway 11 2 dead
+
+Conway 11 3 dead
+
+Conway 11 4 dead
+
+Conway 11 5 dead
+
+Conway 11 6 dead
+
+Conway 11 7 dead
+
+
+Conway 11 11 dead
+
+Conway 11 12 dead
+
+Conway 11 13 dead
+
+Conway 11 14 dead
+
+Conway 11 15 dead
+
+Conway 11 16 dead
+
+Conway 11 17 dead
+
+Conway 11 18 dead
+
+Conway 11 19 dead
+
+Conway 11 20 dead
+
+Conway 11 21 alive
+
+Conway 11 22 dead
+
+Conway 11 23 dead
+
+Conway 11 24 dead
+
+Conway 11 25 dead
+
+Conway 11 26 dead
+
+Conway 11 27 dead
+
+Conway 11 28 dead
+
+Conway 11 29 dead
+
+Conway 12 0 dead
+
+Conway 12 1 dead
+
+Conway 12 2 dead
+
+Conway 12 3 dead
+
+Conway 12 4 dead
+
+Conway 12 5 dead
+
+Conway 12 6 dead
+
+Conway 12 7 dead
+
+Conway 12 10 dead
+
+Conway 12 11 dead
+
+Conway 12 12 dead
+
+Conway 12 13 dead
+
+Conway 12 14 dead
+
+Conway 12 15 dead
+
+Conway 12 16 dead
+
+Conway 12 17 dead
+
+Conway 12 18 dead
+
+Conway 12 19 dead
+
+Conway 12 20 dead
+
+Conway 12 21 dead
+
+Conway 12 22 dead
+
+Conway 12 23 dead
+
+Conway 12 24 dead
+
+Conway 12 25 dead
+
+Conway 12 26 dead
+
+Conway 12 27 dead
+
+Conway 12 28 dead
+
+Conway 12 29 dead
+
+Conway 13 0 dead
+
+Conway 13 1 dead
+
+Conway 13 2 dead
+
+Conway 13 3 dead
+
+Conway 13 4 dead
+
+Conway 13 5 dead
+
+Conway 13 6 dead
+
+Conway 13 7 dead
+
+Conway 13 8 dead
+
+Conway 13 10 dead
+
+Conway 13 11 dead
+
+Conway 13 12 dead
+
+Conway 13 13 dead
+
+Conway 13 14 dead
+
+Conway 13 15 dead
+
+Conway 13 16 dead
+
+Conway 13 17 dead
+
+Conway 13 18 dead
+
+Conway 13 19 dead
+
+Conway 13 20 dead
+
+Conway 13 21 dead
+
+Conway 13 22 dead
+
+Conway 13 23 dead
+
+Conway 13 24 dead
+
+Conway 13 25 dead
+
+Conway 13 26 dead
+
+Conway 13 27 dead
+
+Conway 13 28 dead
+
+Conway 13 29 dead
+
+Conway 14 0 dead
+
+Conway 14 1 dead
+
+Conway 14 2 dead
+
+Conway 14 3 dead
+
+Conway 14 4 dead
+
+Conway 14 5 dead
+
+Conway 14 6 dead
+
+Conway 14 7 dead
+
+Conway 14 8 dead
+
+Conway 14 11 dead
+
+Conway 14 12 dead
+
+Conway 14 13 dead
+
+Conway 14 14 dead
+
+Conway 14 15 dead
+
+Conway 14 16 dead
+
+Conway 14 17 dead
+
+Conway 14 18 dead
+
+Conway 14 19 dead
+
+Conway 14 20 dead
+
+Conway 14 21 dead
+
+Conway 14 22 dead
+
+Conway 14 23 dead
+
+Conway 14 24 dead
+
+Conway 14 25 dead
+
+Conway 14 26 dead
+
+Conway 14 27 dead
+
+Conway 14 28 dead
+
+Conway 14 29 dead
+
+Conway 15 0 dead
+
+Conway 15 1 dead
+
+Conway 15 2 dead
+
+Conway 15 3 dead
+
+Conway 15 4 dead
+
+Conway 15 5 dead
+
+Conway 15 6 dead
+
+Conway 15 7 dead
+
+Conway 15 11 dead
+
+Conway 15 12 dead
+
+Conway 15 13 dead
+
+Conway 15 14 dead
+
+Conway 15 15 dead
+
+Conway 15 16 dead
+
+Conway 15 17 dead
+
+Conway 15 18 dead
+
+Conway 15 19 dead
+
+Conway 15 20 dead
+
+Conway 15 21 dead
+
+Conway 15 22 alive
+
+Conway 15 23 alive
+
+Conway 15 24 alive
+
+Conway 15 25 dead
+
+Conway 15 26 dead
+
+Conway 15 27 dead
+
+Conway 15 28 dead
+
+Conway 15 29 dead
+
+Conway 16 0 dead
+
+Conway 16 1 dead
+
+Conway 16 2 dead
+
+Conway 16 3 dead
+
+Conway 16 4 dead
+
+Conway 16 5 dead
+
+Conway 16 6 dead
+
+Conway 16 7 dead
+
+Conway 16 8 dead
+
+Conway 16 11 dead
+
+Conway 16 12 dead
+
+Conway 16 13 dead
+
+Conway 16 14 dead
+
+Conway 16 15 dead
+
+Conway 16 16 dead
+
+Conway 16 17 dead
+
+Conway 16 18 dead
+
+Conway 16 19 dead
+
+Conway 16 20 dead
+
+Conway 16 21 dead
+
+Conway 16 22 dead
+
+Conway 16 23 dead
+
+Conway 16 26 dead
+
+Conway 16 27 dead
+
+Conway 16 28 dead
+
+Conway 16 29 dead
+
+Conway 17 0 dead
+
+Conway 17 1 dead
+
+Conway 17 2 dead
+
+Conway 17 3 dead
+
+Conway 17 4 dead
+
+Conway 17 5 dead
+
+Conway 17 6 dead
+
+Conway 17 7 dead
+
+Conway 17 10 dead
+
+Conway 17 11 dead
+
+Conway 17 12 dead
+
+Conway 17 13 dead
+
+Conway 17 14 dead
+
+Conway 17 15 dead
+
+Conway 17 16 dead
+
+Conway 17 17 dead
+
+Conway 17 18 dead
+
+Conway 17 19 dead
+
+Conway 17 20 dead
+
+Conway 17 25 dead
+
+Conway 17 26 dead
+
+Conway 17 27 dead
+
+Conway 17 28 dead
+
+Conway 17 29 dead
+
+Conway 18 0 alive
+
+Conway 18 1 dead
+
+Conway 18 2 alive
+
+Conway 18 3 dead
+
+Conway 18 4 dead
+
+Conway 18 5 dead
+
+Conway 18 6 dead
+
+Conway 18 7 dead
+
+Conway 18 10 dead
+
+Conway 18 11 dead
+
+Conway 18 12 dead
+
+Conway 18 13 dead
+
+Conway 18 14 dead
+
+Conway 18 15 dead
+
+Conway 18 16 dead
+
+Conway 18 17 dead
+
+Conway 18 18 dead
+
+Conway 18 19 dead
+
+Conway 18 20 dead
+
+Conway 18 25 dead
+
+Conway 18 26 dead
+
+Conway 18 27 dead
+
+Conway 18 28 dead
+
+Conway 18 29 dead
+
+Conway 19 0 alive
+
+Conway 19 1 dead
+
+Conway 19 2 dead
+
+Conway 19 3 alive
+
+Conway 19 4 dead
+
+Conway 19 5 dead
+
+Conway 19 6 dead
+
+Conway 19 9 dead
+
+Conway 19 10 dead
+
+Conway 19 11 dead
+
+Conway 19 12 dead
+
+Conway 19 13 alive
+
+Conway 19 14 alive
+
+Conway 19 15 alive
+
+Conway 19 16 dead
+
+Conway 19 17 alive
+
+Conway 19 18 alive
+
+Conway 19 19 alive
+
+Conway 19 20 dead
+
+Conway 19 21 dead
+
+Conway 19 22 dead
+
+Conway 19 25 dead
+
+Conway 19 26 dead
+
+Conway 19 27 dead
+
+Conway 19 28 dead
+
+Conway 19 29 dead
+
+Conway 20 0 alive
+
+Conway 20 1 dead
+
+Conway 20 2 dead
+
+Conway 20 3 alive
+
+Conway 20 4 dead
+
+Conway 20 5 dead
+
+Conway 20 6 dead
+
+Conway 20 7 dead
+
+Conway 20 8 dead
+
+Conway 20 9 dead
+
+Conway 20 10 dead
+
+Conway 20 11 dead
+
+Conway 20 12 dead
+
+Conway 20 13 dead
+
+Conway 20 14 alive
+
+Conway 20 15 alive
+
+Conway 20 16 dead
+
+Conway 20 17 alive
+
+Conway 20 18 dead
+
+Conway 20 19 dead
+
+Conway 20 20 dead
+
+Conway 20 21 dead
+
+Conway 20 22 dead
+
+Conway 20 23 dead
+
+Conway 20 24 dead
+
+Conway 20 25 dead
+
+Conway 20 26 dead
+
+Conway 20 27 dead
+
+Conway 20 28 dead
+
+Conway 20 29 dead
+
+Conway 21 0 dead
+
+Conway 21 1 dead
+
+Conway 21 2 alive
+
+Conway 21 3 alive
+
+Conway 21 4 dead
+
+Conway 21 5 dead
+
+Conway 21 6 dead
+
+Conway 21 7 dead
+
+Conway 21 8 dead
+
+Conway 21 9 dead
+
+Conway 21 10 dead
+
+Conway 21 11 dead
+
+Conway 21 12 dead
+
+Conway 21 13 dead
+
+Conway 21 14 dead
+
+Conway 21 15 alive
+
+Conway 21 16 dead
+
+Conway 21 17 dead
+
+Conway 21 18 dead
+
+Conway 21 19 dead
+
+Conway 21 20 dead
+
+Conway 21 21 dead
+
+Conway 21 22 dead
+
+Conway 21 23 dead
+
+Conway 21 24 dead
+
+Conway 21 25 dead
+
+Conway 21 26 dead
+
+Conway 21 27 dead
+
+Conway 21 28 dead
+
+Conway 21 29 dead
+
+Conway 22 0 dead
+
+Conway 22 1 dead
+
+Conway 22 2 dead
+
+Conway 22 3 dead
+
+Conway 22 4 dead
+
+Conway 22 5 dead
+
+Conway 22 6 dead
+
+Conway 22 7 dead
+
+Conway 22 8 dead
+
+Conway 22 9 dead
+
+Conway 22 10 dead
+
+Conway 22 11 dead
+
+Conway 22 12 dead
+
+Conway 22 13 dead
+
+Conway 22 14 dead
+
+Conway 22 15 dead
+
+Conway 22 16 dead
+
+Conway 22 17 dead
+
+Conway 22 18 dead
+
+Conway 22 19 dead
+
+Conway 22 20 dead
+
+Conway 22 21 dead
+
+Conway 22 22 dead
+
+Conway 22 23 dead
+
+Conway 22 24 dead
+
+Conway 22 25 dead
+
+Conway 22 26 dead
+
+Conway 22 27 dead
+
+Conway 22 28 dead
+
+Conway 22 29 dead
+
+Conway 23 0 dead
+
+Conway 23 1 dead
+
+Conway 23 2 dead
+
+Conway 23 3 dead
+
+Conway 23 4 dead
+
+Conway 23 5 dead
+
+Conway 23 6 dead
+
+Conway 23 7 dead
+
+Conway 23 8 dead
+
+Conway 23 9 dead
+
+Conway 23 10 dead
+
+Conway 23 11 dead
+
+Conway 23 12 dead
+
+Conway 23 13 dead
+
+Conway 23 14 dead
+
+Conway 23 15 dead
+
+Conway 23 16 dead
+
+Conway 23 17 dead
+
+Conway 23 18 dead
+
+Conway 23 19 dead
+
+Conway 23 20 alive
+
+Conway 23 21 alive
+
+Conway 23 22 alive
+
+Conway 23 23 alive
+
+Conway 23 24 alive
+
+Conway 23 25 dead
+
+Conway 23 26 dead
+
+Conway 23 27 dead
+
+Conway 23 28 dead
+
+Conway 23 29 dead
+
+Conway 24 0 dead
+
+Conway 24 1 dead
+
+Conway 24 2 dead
+
+Conway 24 3 dead
+
+Conway 24 4 dead
+
+Conway 24 5 dead
+
+Conway 24 6 dead
+
+Conway 24 7 dead
+
+Conway 24 8 dead
+
+Conway 24 9 dead
+
+Conway 24 10 dead
+
+Conway 24 11 dead
+
+Conway 24 12 dead
+
+Conway 24 13 dead
+
+Conway 24 14 dead
+
+Conway 24 15 dead
+
+Conway 24 16 dead
+
+Conway 24 17 dead
+
+Conway 24 18 dead
+
+Conway 24 19 alive
+
+Conway 24 20 alive
+
+Conway 24 21 dead
+
+Conway 24 22 alive
+
+Conway 24 23 alive
+
+Conway 24 24 alive
+
+Conway 24 25 alive
+
+Conway 24 26 dead
+
+Conway 24 27 dead
+
+Conway 24 28 dead
+
+Conway 24 29 dead
+
+Conway 25 0 dead
+
+Conway 25 1 dead
+
+Conway 25 2 dead
+
+Conway 25 3 dead
+
+Conway 25 4 dead
+
+Conway 25 5 dead
+
+Conway 25 6 alive
+
+Conway 25 7 alive
+
+Conway 25 8 dead
+
+Conway 25 9 dead
+
+Conway 25 10 dead
+
+Conway 25 11 dead
+
+Conway 25 12 dead
+
+Conway 25 13 dead
+
+Conway 25 14 dead
+
+Conway 25 15 dead
+
+Conway 25 16 dead
+
+Conway 25 17 dead
+
+Conway 25 18 dead
+
+Conway 25 19 dead
+
+Conway 25 20 alive
+
+Conway 25 21 dead
+
+Conway 25 22 alive
+
+Conway 25 23 dead
+
+Conway 25 24 dead
+
+Conway 25 25 alive
+
+Conway 25 26 dead
+
+Conway 25 27 dead
+
+Conway 25 28 dead
+
+Conway 25 29 dead
+
+Conway 26 0 dead
+
+Conway 26 1 dead
+
+Conway 26 2 dead
+
+Conway 26 3 dead
+
+Conway 26 4 dead
+
+Conway 26 5 alive
+
+Conway 26 6 dead
+
+Conway 26 7 dead
+
+Conway 26 8 alive
+
+Conway 26 9 dead
+
+Conway 26 10 dead
+
+Conway 26 11 dead
+
+Conway 26 12 dead
+
+Conway 26 13 dead
+
+Conway 26 14 dead
+
+Conway 26 15 dead
+
+Conway 26 16 dead
+
+Conway 26 17 dead
+
+Conway 26 18 dead
+
+Conway 26 19 dead
+
+Conway 26 20 dead
+
+Conway 26 21 dead
+
+Conway 26 22 dead
+
+Conway 26 23 alive
+
+Conway 26 24 alive
+
+Conway 26 25 alive
+
+Conway 26 26 dead
+
+Conway 26 27 dead
+
+Conway 26 28 dead
+
+Conway 26 29 dead
+
+Conway 27 0 dead
+
+Conway 27 1 dead
+
+Conway 27 2 dead
+
+Conway 27 3 dead
+
+Conway 27 4 dead
+
+Conway 27 5 dead
+
+Conway 27 6 alive
+
+Conway 27 7 alive
+
+Conway 27 8 dead
+
+Conway 27 9 dead
+
+Conway 27 10 dead
+
+Conway 27 11 dead
+
+Conway 27 12 alive
+
+Conway 27 13 alive
+
+Conway 27 14 dead
+
+Conway 27 15 dead
+
+Conway 27 16 dead
+
+Conway 27 17 dead
+
+Conway 27 18 dead
+
+Conway 27 19 dead
+
+Conway 27 20 dead
+
+Conway 27 21 dead
+
+Conway 27 22 dead
+
+Conway 27 23 alive
+
+Conway 27 24 alive
+
+Conway 27 25 dead
+
+Conway 27 26 dead
+
+Conway 27 27 dead
+
+Conway 27 28 dead
+
+Conway 27 29 dead
+
+Conway 28 0 dead
+
+Conway 28 1 dead
+
+Conway 28 2 dead
+
+Conway 28 3 dead
+
+Conway 28 4 dead
+
+Conway 28 5 dead
+
+Conway 28 6 dead
+
+Conway 28 7 dead
+
+Conway 28 8 dead
+
+Conway 28 9 dead
+
+Conway 28 10 dead
+
+Conway 28 11 dead
+
+Conway 28 12 alive
+
+Conway 28 13 dead
+
+Conway 28 14 alive
+
+Conway 28 15 dead
+
+Conway 28 16 dead
+
+Conway 28 17 dead
+
+Conway 28 18 dead
+
+Conway 28 19 dead
+
+Conway 28 20 dead
+
+Conway 28 21 dead
+
+Conway 28 22 dead
+
+Conway 28 23 dead
+
+Conway 28 24 dead
+
+Conway 28 25 dead
+
+Conway 28 26 dead
+
+Conway 28 27 dead
+
+Conway 28 28 dead
+
+Conway 28 29 dead
+
+Conway 29 0 dead
+
+Conway 29 1 dead
+
+Conway 29 2 dead
+
+Conway 29 3 dead
+
+Conway 29 4 dead
+
+Conway 29 5 dead
+
+Conway 29 6 dead
+
+Conway 29 7 dead
+
+Conway 29 8 dead
+
+Conway 29 9 dead
+
+Conway 29 10 dead
+
+Conway 29 11 dead
+
+Conway 29 12 dead
+
+Conway 29 13 alive
+
+Conway 29 14 alive
+
+Conway 29 15 dead
+
+Conway 29 16 dead
+
+Conway 29 17 dead
+
+Conway 29 18 dead
+
+Conway 29 19 dead
+
+Conway 29 20 dead
+
+Conway 29 21 dead
+
+Conway 29 22 dead
+
+Conway 29 23 dead
+
+Conway 29 24 dead
+
+Conway 29 25 dead
+
+Conway 29 26 dead
+
+Conway 29 27 dead
+
+Conway 29 28 dead
+
+Conway 29 29 dead
+

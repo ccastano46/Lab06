@@ -1,0 +1,6 @@
+Automata Errores pruebaDeExcepciones3.txt
+Line 15: No existe alguna celula con el nombre: Aguacate
+Line 33: 'Conway l 16 dead holabro' No valido
+Line 41: Fuera de rango Conway 51 51 dead
+Line 81: 'Conway 1 10' No valido
+Line 1423: 'Conway 29 29 dead ELFIN' No valido
